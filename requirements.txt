@@ -1,0 +1,18 @@
+# Versions the paper's experiments were run with (Python 3.11).
+numpy==2.4.1
+scipy==1.17.0
+pandas==2.3.3
+scikit-learn==1.8.0
+torch==2.9.1
+torch-geometric==2.7.0
+pytorch-lightning==2.6.0
+torchmetrics==1.8.2
+optuna==4.6.0
+nilearn==0.13.0
+nibabel==5.3.3
+matplotlib==3.10.8
+joblib==1.5.3
+threadpoolctl==3.6.0
+tqdm==4.67.1
+setuptools==80.9.0    # torch.compile (used by the simulations) imports it at run time
+pytest

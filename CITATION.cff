@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper."
+title: "Bias, Measurement Error, and Double-Dipping: When Can GNN Convolutions Help Brain Connectome Prediction?"
+repository-code: "https://github.com/tommicaste/B-ME-DD"
+license: MIT
+authors:
+  - family-names: Castellani
+    given-names: Tommaso
+  - family-names: Li
+    given-names: Jiaqi
+  - family-names: Wheelock
+    given-names: Muriah D.
+  - family-names: Razzaque
+    given-names: Rezwana Rosen
+  - family-names: Laufs
+    given-names: Helmut
+  - family-names: Chen
+    given-names: Hong
+  - family-names: Donnat
+    given-names: Claire
+preferred-citation:
+  type: conference-paper
+  title: "Bias, Measurement Error, and Double-Dipping: When Can GNN Convolutions Help Brain Connectome Prediction?"
+  collection-title: "Advances in Neural Information Processing Systems"
+  year: 2026
+  authors:
+    - family-names: Castellani
+      given-names: Tommaso
+    - family-names: Li
+      given-names: Jiaqi
+    - family-names: Wheelock
+      given-names: Muriah D.
+    - family-names: Razzaque
+      given-names: Rezwana Rosen
+    - family-names: Laufs
+      given-names: Helmut
+    - family-names: Chen
+      given-names: Hong
+    - family-names: Donnat
+      given-names: Claire

@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "b-me-dd"
+version = "1.0.0"
+description = "Code for 'Bias, Measurement Error, and Double-Dipping: When Can GNN Convolutions Help Brain Connectome Prediction?' (NeurIPS 2026)"
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.26",
+    "scipy>=1.11",
+    "pandas>=2.1",
+    "scikit-learn>=1.4",
+    "torch>=2.2",
+    "torch-geometric>=2.5",
+    "pytorch-lightning>=2.2",
+    "optuna>=4.0",
+    "nilearn>=0.13",
+    "nibabel",
+    "matplotlib",
+    "joblib",
+    "threadpoolctl",
+    "tqdm",
+    "setuptools",
+]
+
+[project.urls]
+Repository = "https://github.com/tommicaste/B-ME-DD"
+
+[tool.setuptools.packages.find]
+include = ["utils*", "simulations*", "real_data*"]
+
+[tool.setuptools.package-data]
+real_data = ["parcellation/*"]
